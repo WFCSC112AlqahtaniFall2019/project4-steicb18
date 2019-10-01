@@ -19,6 +19,7 @@ TicTacToe::TicTacToe() {
     initializeBoard();
 }
 
+// Destructor for Tic-Tac-Toe game
 TicTacToe::~TicTacToe() { }
 
 // Set (or reset) the board so every position is empty.
@@ -63,7 +64,6 @@ bool TicTacToe::isBoardFull() {
             }
         }
     }
-
     return isFull;
 }
 
@@ -140,6 +140,5 @@ bool TicTacToe::placeMark(int row, int col) {
             }
         }
     }
-
     return false;
 }

@@ -1,9 +1,9 @@
 /* Class: TicTacToe
- * Author: Samuel Cho
+ * Author: [FINISH ME]
  * Description: A program that implements the game Tic-Tac-Toe
  */
 
- #include <iostream>
+#include <iostream>
 #include "TicTacToe.h"
 using namespace std;
 

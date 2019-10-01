@@ -12,6 +12,9 @@ private:
     char currentPlayerMark;
     int currentPlayerNumber;
 
+    // Loop through each row and see if any are winners.
+    bool checkRowsForWin() const;
+
     // Loop through each columns and see if any are winners.
     bool checkColumnsForWin() const;
 
@@ -43,9 +46,6 @@ public:
     // This calls our other win check functions to check the entire board.
     bool checkForWin() const;
 
-    // Loop through each row and see if any are winners.
-    bool checkRowsForWin() const;
-
     // Returns current player number
     int getCurrentPlayerNumber() const;
 
@@ -56,5 +56,4 @@ public:
     bool placeMark(int row, int col);
 };
 
-
-#endif //TICTACTOE_H
+#endif //TICTCTOE_H
